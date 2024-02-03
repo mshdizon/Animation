@@ -29,6 +29,7 @@ section{
     border-radius: 50%;
     opacity: 0;
     animation: sparkleAnimation 1s ease-out infinite;
+    box-shadow: 0 0 20px #fff, inset 0 0 20px #fff;
   }
   
   @keyframes sparkleAnimation {
@@ -82,6 +83,7 @@ section{
     animation: animate 5s linear infinite;
     transform-origin: bottom center;
     animation-play-state: run;
+    cursor: pointer;
 }
     
 @keyframes animate{
